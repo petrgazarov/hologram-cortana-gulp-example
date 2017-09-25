@@ -4,9 +4,10 @@ This repo is an example of setup of a living styleguide and is designed to enabl
 It comes with gulp setup to compile your CSS into one application.css which can then be deployed to a remote host and used in your app.
 
 I used these awesome libraries:
-[Hologram](https://github.com/trulia/hologram) by Trulia
-[Cortana](https://github.com/Yago/Cortana) by Yago
-[gulp](https://github.com/gulpjs/gulp)
+
+- [Hologram](https://github.com/trulia/hologram) by Trulia
+- [Cortana](https://github.com/Yago/Cortana) by Yago
+- [gulp](https://github.com/gulpjs/gulp)
 
 The styleguide is set up with [gulp-stylus](https://github.com/stevelacy/gulp-stylus) but it is trivial to support any other CSS preprocessor,
 by adding an appropriate gulp plugin to `preprocess` gulp task.
