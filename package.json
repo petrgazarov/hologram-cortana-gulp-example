@@ -1,0 +1,50 @@
+{
+  "name": "@clausehq/styleguide",
+  "version": "0.0.1",
+  "description": "Clause Styleguide for UI Components",
+  "devDependencies": {
+    "del": "^2.2.2",
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^3.1.1",
+    "gulp-connect": "^2.2.0",
+    "gulp-eslint": "^0.14.0",
+    "gulp-ext": "^1.0.0",
+    "gulp-fingerprint": "^0.3.2",
+    "gulp-hologram": "^1.2.0",
+    "gulp-imagemin": "^2.3.0",
+    "gulp-newer": "^1.0.0",
+    "gulp-notify": "^1.4.2",
+    "gulp-plumber": "^1.0.1",
+    "gulp-rename": "^1.2.2",
+    "gulp-rev": "^6.0.1",
+    "gulp-sequence": "^0.4.5",
+    "gulp-shell": "^0.5.2",
+    "gulp-sourcemaps": "^1.2.8",
+    "gulp-stylus": "^2.6.0",
+    "imagemin-pngquant": "^4.2.2",
+    "node-sass": "^3.13.0",
+    "path": "^0.12.7",
+    "require-dir": "^0.3.0",
+    "rev-del": "^1.0.5"
+  },
+  "scripts": {
+    "clean": "rm -rf ./styleguide",
+    "dev": "./node_modules/gulp/bin/gulp.js",
+    "build": "./node_modules/gulp/bin/gulp.js build",
+    "open": "open http://localhost:8888/"
+  },
+  "main": "gulpfile.js",
+  "dependencies": {
+    "bootstrap-styl": "^5.0.8"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/clauseHQ/styleguide.git"
+  },
+  "author": "Petr Gazarov",
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/clauseHQ/styleguide/issues"
+  },
+  "homepage": "https://github.com/clauseHQ/styleguide#readme"
+}

@@ -1,0 +1,19 @@
+{
+  "name": "@clausehq/styleguide",
+  "description": "Clause Styleguide for UI Components",
+  "main": "gulpfile.js",
+  "authors": [
+    "Petr Gazarov"
+  ],
+  "license": "UNLICENSED",
+  "homepage": "https://github.com/clauseHQ/styleguide",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components"
+  ],
+  "devDependencies": {
+    "Cortana": "^1.2.9"
+  }
+}
