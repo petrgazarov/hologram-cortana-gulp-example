@@ -9,7 +9,7 @@ I used these awesome libraries:
 - [Cortana](https://github.com/Yago/Cortana) by Yago
 - [gulp](https://github.com/gulpjs/gulp)
 
-The styleguide is set up with [gulp-stylus](https://github.com/stevelacy/gulp-stylus) but it is trivial to support any other CSS preprocessor,
+The styleguide is set up with [gulp-stylus](https://github.com/stevelacy/gulp-stylus) but you can easily hook up any other CSS preprocessor,
 by adding an appropriate gulp plugin to `preprocess` gulp task.
 
 ## Development
@@ -44,4 +44,4 @@ For bugs or improvements, please open an issue.
 
 ## TODO
 
-Add deploy script to AWS S3
+- [ ] Add deploy script to AWS S3
